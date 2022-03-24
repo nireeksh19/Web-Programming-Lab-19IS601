@@ -1,0 +1,26 @@
+<!-- 13. Write Java script code that will change the color of the background to red when the
+user brought the focus to the object and change the color to green when user has left the
+focus on the object. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Enter your name: <input type="text" onfocus="myFunction(this)" 
+onfocusout="myFunction1(this)">
+<p>When the input field gets focus, a function is triggered which changes the background-color.</p>
+<script>
+function myFunction(x) {
+ document.body.style.background = "red";
+}
+function myFunction1(x) {
+ document.body.style.background = "green";
+}
+</script>
+
+</body>
+</html>

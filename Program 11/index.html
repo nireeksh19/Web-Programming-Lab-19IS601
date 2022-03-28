@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <script>
+        function validate() {
+            var msg = "";
+            if (document.getElementById('log').value == "") {
+                msg = "username";
+            } if (document.getElementById('pass').value == "") {
+                if (msg != "") {
+                    msg += " and "
+                }
+                msg += "password";
+            }
+            if (msg != "") {
+                alert("provide " + msg);
+                return false;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <form action="login.php" method="post" onsubmit="validate();">
+        Login-Name: <input type="text" id="log"></br></br>
+        Pass-word: <input type="password" id="pass"></br></br>
+        <input type="submit" name="submit1" value="Login">
+    </form>
+</body>
+
+</html>

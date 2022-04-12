@@ -18,7 +18,7 @@
     $name = $_POST["name"];
     $Password = $_POST["Password"];
 
-    echo "<h3> Hello $name";
+    echo "<h3> Hello $name</h3>";
     }
     ?>
 </body>

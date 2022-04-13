@@ -1,0 +1,42 @@
+<!-- 6. Design an HTML form to take the information of a customer visiting a departmental
+store such as name, contact phone no , email -id, address, preferred days of purchasing ,
+favorite item ( to be selected from a list of items), suggestions etc. One should provide
+button to Submit as well as Reset the form contents -->
+<Html> 
+<head> 
+<title> 
+Registration Page 
+</title> 
+</head> 
+<body bgcolor="Lightskyblue"> 
+<br> 
+<br> 
+<style>
+h1 {text-align: center;}
+</style>
+<form> 
+<h1>DEPARTMENTAL STORE </h1>
+<label> Name </label> 
+<input type="text" name="Name" size="15"/> <br> <br> 
+<label> contactno: </label> 
+<input type="text" name="contact no" size="15"/> <br> <br> 
+<label> emailid: </label> 
+<input type="text" name="emailid" size="15"/> <br> <br> 
+<label> address: </label> 
+<input type="text" address="address" size="15"/> <br> <br> 
+<label> preferred days of purchasing: </label> 
+<input type="text" address="preferred days of purchasing" size="15"/> <br> <br> 
+<label for="favourite item ">Choose a favourite item :</label>
+ <select name="favourite item " id="favourite item ">
+ <option value="volvo">Item1</option>
+ <option value="saab">Item2</option>
+ <option value="opel">Item3</option>
+ <option value="audi">Item4</option>
+ </select>
+<label> Suggestions </label> 
+<input type="text" name="Suggestions" size="15"/> <br> <br>
+<input type="submit" value="Submit Button">
+<input type="reset" value="Reset Button"> 
+</form>
+</body>
+</Html>

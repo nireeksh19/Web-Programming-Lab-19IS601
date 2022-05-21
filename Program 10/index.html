@@ -20,6 +20,7 @@ typed to set the background color of the web page -->
     <p id="GFG_DOWN" style="color:green; font-size: 20px; font-weight: bold;">
     </p>
     <script>
+        var col =prompt("Choose the color", );
         var el_up = document.getElementById("GFG_UP");
         var el_down = document.getElementById("GFG_DOWN");
         var str = "Click on button to change the background color";
@@ -28,7 +29,7 @@ typed to set the background color of the web page -->
             document.body.style.background = color;
         }
         function gfg_Run() {
-            changeColor('yellow');
+            changeColor(col);
             el_down.innerHTML = "Background Color changed";
         }
     </script>

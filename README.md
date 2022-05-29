@@ -82,3 +82,9 @@ show the details in a neat tabular format.
 26. Write a PHP program to connect to a database and retrieve data from a table and 
 show the details in a neat format, Insert Data and show the entered Data, Select Data, 
 Order Data, Delete,Update Data.
+
+27. Change Text Color of the Elements Using Jquery.
+
+28. Click event Double click eventin jQuery.
+
+29. Creating a simple show and hide effect in jQuery

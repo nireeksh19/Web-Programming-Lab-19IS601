@@ -91,3 +91,7 @@ Lab Programs:
 29. Creating a simple show and hide effect in jQuery
 
 30. Write a PHP script that shows the usage of cookies.
+
+31. Password validate using php.
+
+32. Create a employee salary form and  calculate basic pay,  hra  da and total pay.
